@@ -6,17 +6,29 @@ export default function Home() {
     // Data for work experiences
     const experiences = [
         {
-            title: "Software Engineer & Data Analyst",
-            company: "GRASP SPAIN",
-            period: "Sep. 2023 - Presente",
+            title: "Desarrollador en prácticas",
+            company: "UNIVERSIDAD DE GRANADA (UGR)",
+            period: "Abril. 2024 - Junio. 2024",
             description: "",
             // "Desarrollo de una aplicación web para la generación de medidas sintéticas de satélites en el marco de un proyecto NEOTEC financiado por el CDTI. Responsable de varias tareas de preparación y procesamiento de datos satelitales críticos para la observación terrestre, implementando soluciones técnicas innovadoras que optimizan la calidad y utilidad de la información geoespacial obtenida.",
             projects: [
-                "Simulador de medidas de instrumentos satelitales",
-                "Preparacion de cadenas de procesado para datos geoespaciales (S5P, OLCI...)",
+                "Página web del grupo de Astrofisica Galáctica",
             ],
-            technologies: ["Python", "Remote Sensing", "Streamlit", "Docker"],
-            image: "/company_logo/grasp.png",
+            technologies: ["Astro", "Markdown", "GitHub"],
+            image: "/company_logo/UGR.png",
+        },
+        {
+            title: "Administrador de tests",
+            company: "ISP Gestión",
+            period: "Julio. 2024 - Presente",
+            description: "",
+            // "Desarrollo de una aplicación web para la generación de medidas sintéticas de satélites en el marco de un proyecto NEOTEC financiado por el CDTI. Responsable de varias tareas de preparación y procesamiento de datos satelitales críticos para la observación terrestre, implementando soluciones técnicas innovadoras que optimizan la calidad y utilidad de la información geoespacial obtenida.",
+            projects: [
+                "TPV",
+                "Configuraciones y mejoras de la aplicación"
+            ],
+            technologies: ["PHP", "JavaScript", "Postgre", "Yii", "Syncfusion"],
+            image: "/company_logo/ispgestion.png",
         },
         // {
         //     title: "Analista en Prácticas",
@@ -32,37 +44,37 @@ export default function Home() {
         //     ],
         //     image: "/company_logo/kpmg.png",
         // },
-        {
-            title: "Ingeniero de Investigación en Visión Artificial",
-            company: "Universidad de Valladolid (UVa)",
-            period: "Nov. 2021 - Mar. 2023",
-            description: "",
-            projects: [
-                "Sistema de prevencion de roturas en cintas transportadoras",
-                "Prototipo contador de visitantes para eventos en espacios abiertos",
-            ],
-            technologies: [
-                "Python",
-                "Computer Vision",
-                "IoT",
-                // "Inteligencia Artificial",
-                // "Ciencia de Datos",
-                "Machine Learning",
-            ],
-            image: "/company_logo/uva.png",
-        },
+        // {
+        //     title: "Ingeniero de Investigación en Visión Artificial",
+        //     company: "Universidad de Valladolid (UVa)",
+        //     period: "Nov. 2021 - Mar. 2023",
+        //     description: "",
+        //     projects: [
+        //         "Sistema de prevencion de roturas en cintas transportadoras",
+        //         "Prototipo contador de visitantes para eventos en espacios abiertos",
+        //     ],
+        //     technologies: [
+        //         "Python",
+        //         "Computer Vision",
+        //         "IoT",
+        //         // "Inteligencia Artificial",
+        //         // "Ciencia de Datos",
+        //         "Machine Learning",
+        //     ],
+        //     image: "/company_logo/uva.png",
+        // },
     ];
 
     // Sample project data
     const projects = [
         {
-            image: "/projects_logo/blockheadapp.png",
-            domain: "https://blockheadapp.com",
+            image: "/projects_logo/pixelMetroid.png",
+            domain: "https://github.com/AlejandroAlbaCastillo/PixelMetroid2D.git",
         },
-        // {
-        //     image: "/projects_logo/blockheadapp.png",
-        //     domain: "https://taskmanager.goyocancio.es",
-        // },
+        {
+            image: "/projects_logo/Sportify.png",
+            domain: "https://github.com/AlejandroAlbaCastillo/TFGAlejandroAlbaCastillo/tree/dev",
+        },
         // {
         //     image: "/projects_logo/blockheadapp.png",
         //     domain: "https://travelblog.goyocancio.es",
@@ -111,11 +123,11 @@ export default function Home() {
                     </div>
 
                     <p className="text-xs md:text-base mb-2 text-justify">
-                        De manera paralela a los trabajos que he ido
-                        desempeñando, he desarrollado varios proyectos
-                        personales tanto para probarme a mí mismo y ver de qué
-                        soy capaz, como para aplicar mis conocimientos y
-                        aprender nuevas tecnologías.
+                    Además de mi trabajo diario, dedico tiempo a desarrollar proyectos personales 
+                    que me permiten seguir mejorando como desarrollador. La mayoría están enfocados 
+                    en tecnologías como PHP y JavaScript, y me sirven para experimentar con nuevas 
+                    herramientas, probar arquitecturas, y mantenerme al día con las buenas prácticas 
+                    del desarrollo web.
                     </p>
                     <p className="text-xs md:text-base mb-8  text-justify">
                         Aquí puedes ver algunos de ellos:
@@ -137,7 +149,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
             <footer className="text-center text-xs md:text-sm text-gray-500">
                 © {new Date().getFullYear()} Goyo Cancio. Todos los derechos
                 reservados.

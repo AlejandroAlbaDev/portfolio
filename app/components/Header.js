@@ -7,35 +7,35 @@ import Link from "next/link";
  */
 export default function Header() {
     // Developer information
-    const developerName = "Goyo Cancio";
-    const jobTitle = "Software Engineer";
+    const developerName = "Alejandro Alba";
+    const jobTitle = "Desarrollador FullStack";
 
     // Social media links
     const socialLinks = [
         {
             name: "LinkedIn",
             icon: "/social/linkedin.svg",
-            url: "https://linkedin.com/in/goyocancio",
+            url: "https://www.linkedin.com/in/alejandro-alba-castillo",
             alt: "LinkedIn Profile",
         },
         {
             name: "GitHub",
             icon: "/social/github.svg",
-            url: "https://github.com/McGregory99",
+            url: "https://github.com/AlejandroAlbaCastillo",
             alt: "GitHub Profile",
         },
-        {
-            name: "X",
-            icon: "/social/x.svg",
-            url: "https://x.com/goyo_is_a_dev",
-            alt: "X Profile",
-        },
-        {
-            name: "YouTube",
-            icon: "/social/youtube.svg",
-            url: "https://www.youtube.com/@goyo_is_a_dev",
-            alt: "YouTube Channel",
-        },
+        // {
+        //     name: "InfoJobs",
+        //     icon: "/social/rrss-infojobs.svg",
+        //     url: "https://x.com/goyo_is_a_dev",
+        //     alt: "InfoJobs Profile",
+        // },
+        // {
+        //     name: "YouTube",
+        //     icon: "/social/youtube.svg",
+        //     url: "https://www.youtube.com/@goyo_is_a_dev",
+        //     alt: "YouTube Channel",
+        // },
     ];
 
     return (
