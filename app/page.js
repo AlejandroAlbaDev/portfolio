@@ -150,7 +150,11 @@ export default function Home() {
                 </div>
             </section>
             <footer className="text-center text-xs md:text-sm text-gray-500">
+<<<<<<< HEAD
                 © {new Date().getFullYear()} Alejandro Alba Castillo. Todos los derechos
+=======
+                © {new Date().getFullYear()} Alejandro Alba. Todos los derechos
+>>>>>>> 765b9132c3ee923718f41869dcfc61e624a47ad5
                 reservados.
             </footer>
         </div>
