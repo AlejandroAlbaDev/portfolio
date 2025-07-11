@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-    title: "Portfolio de Goyo Cancio | Desarrollador de Software",
+    title: "Portfolio de Alejandro Alba Castillo | Desarrollador de Software",
     description:
-        "Portfolio profesional de Goyo Cancio, desarrollador de software con experiencia en desarrollo web y aplicaciones móviles.",
+        "Portfolio profesional de Alejandro Alba Castillo, desarrollador de software con experiencia en desarrollo web y aplicaciones móviles.",
 };
 
 export default function RootLayout({ children }) {

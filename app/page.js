@@ -150,7 +150,7 @@ export default function Home() {
                 </div>
             </section>
             <footer className="text-center text-xs md:text-sm text-gray-500">
-                © {new Date().getFullYear()} Goyo Cancio. Todos los derechos
+                © {new Date().getFullYear()} Alejandro Alba Castillo. Todos los derechos
                 reservados.
             </footer>
         </div>
